@@ -1,0 +1,18 @@
+body{
+  font-family: $raleway;
+}
+
+h1, h3, h4, h5, span {
+  font-weight: $bold;
+  font-size: $large;
+}
+
+h2 {
+  font-weight: $extra-ligth;
+  font-size: $large;
+}
+
+p {
+  font-weight: $regular;
+  font-size: $medium;
+}
