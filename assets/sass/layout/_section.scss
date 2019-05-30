@@ -1,10 +1,35 @@
 .section1  {
   height: 100%;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 300px;
+  padding-bottom: 300px;
 }
 
 .section1 h1 {
   text-align: center;
+  font-weight: 200;
+
+}
+
+.section1 span {
+  font-weight: 700;
+
+}
+
+.section2 {
+  height: 100%;
+  padding-top: 50px;
+
+}
+
+.section2 img {
+  width: 700px;
+  margin-left: 50px;
+  margin-right: 50px;
+  
+}
+
+.section2 h2 {
+  text-align: center;
+  font-weight: 700;
 
 }
