@@ -1,10 +1,9 @@
-/* Error: expected "{".
- *   ,
- * 7 | x
- *   |  ^
- *   '
- *   assets/sass/base/_base.scss 7:2  root stylesheet
- *   assets/sass/main.scss 4:9        root stylesheet */
+/* Error: Can't find stylesheet to import.
+ *    ,
+ * 11 | @import 'layuot/article';
+ *    |         ^^^^^^^^^^^^^^^^
+ *    '
+ *   assets/sass/main.scss 11:9  root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -14,5 +13,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a   \2577 \a 7 \2502  x\a   \2502   ^\a   \2575 \a   assets/sass/base/_base.scss 7:2  root stylesheet\a   assets/sass/main.scss 4:9        root stylesheet';
+  content: "Error: Can't find stylesheet to import.\a    \2577 \a 11 \2502  @import 'layuot/article';\a    \2502          ^^^^^^^^^^^^^^^^\a    \2575 \a   assets/sass/main.scss 11:9  root stylesheet";
 }
