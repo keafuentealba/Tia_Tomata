@@ -1,17 +1,86 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 4 | @import 'vendors/bootstrap';
- *   |         ^^^^^^^^^^^^^^^^^^^
- *   '
- *   assets/sass/main.scss 4:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 4 \2502  @import 'vendors/bootstrap';\a   \2502          ^^^^^^^^^^^^^^^^^^^\a   \2575 \a   assets/sass/main.scss 4:9  root stylesheet";
+body {
+  margin: 0;
 }
+
+img {
+  max-width: 100%;
+}
+
+body {
+  height: 100%;
+  background-color: #fff;
+}
+
+.section1, .section4, .article  {
+  background-color: #e56353;
+  color: #fafafa;
+}
+
+.section2, .footer {
+  background-color: #686963;
+  color: #fafafa;
+}
+
+p {
+  font-weight: 400;
+  text-align: center;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+h1, h3, h4, h5, span {
+  font-weight: 700;
+  font-size: 50px;
+}
+
+h2 {
+  font-weight: 200;
+  font-size: 50px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.header img {
+  width: 20%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.section1 {
+  height: 100%;
+  padding-top: 300px;
+  padding-bottom: 300px;
+}
+
+.section1 h1 {
+  text-align: center;
+  font-weight: 200;
+}
+
+.section1 span {
+  font-weight: 700;
+}
+
+.section2 {
+  height: 100%;
+  padding-top: 50px;
+}
+
+.section2 img {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section2 h2 {
+  text-align: center;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=main.css.map */

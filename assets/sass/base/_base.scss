@@ -4,12 +4,23 @@ body {
 
 }
 
- .section1, .section4, .article {
+ .section1, .section4, .article .article1__container {
    background-color: $jelly_bean;
+   color: $snow;
 
  }
 
 .section2, .footer {
   background-color: $granite-gray;
+  color: $snow;
 
+}
+
+h2, h3, h4 {
+  text-align: center;
+}
+
+p {
+  font-weight: 400;
+  text-align: center;
 }
