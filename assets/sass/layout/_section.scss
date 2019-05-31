@@ -1,35 +1,30 @@
-.section1  {
+section {
   height: 100%;
-  padding-top: 300px;
-  padding-bottom: 300px;
+  text-align: center;
+}
+
+.section1 {
+  padding-top: 220px;
+  padding-bottom: 220px;
 }
 
 .section1 h1 {
-  text-align: center;
   font-weight: 200;
-
 }
 
-.section1 span {
+.section1 span, .section2 h2  {
   font-weight: 700;
-
 }
 
-.section2 {
-  height: 100%;
-  padding-top: 50px;
-
-}
-
-.section2 img {
+.section2 img,.section3 img {
   width: 80%;
   display: block;
+  padding-top: 6%;
   margin-left: auto;
   margin-right: auto;
-
 }
 
-.section2 h2 {
-  text-align: center;
-  font-weight: 700;
+.section4 {
+  padding-top: 6%;
+padding-bottom: 6%;
 }
